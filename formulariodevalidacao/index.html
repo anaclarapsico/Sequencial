@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html LANG="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de validação</title>
+    <link rel="stylesheet" type="text/css"href="estilo.css">
+</head>
+<body>
+<h2>formulario de validação</h2>
+
+<form action="#" method="post" id="form-pedido">
+    <label for="nome" >nome:</label><br>
+    <input type="text" id="nome" name="nome"requered><br>
+
+    <label for="data de nascimento">data de nascimento::</label><br>
+    <input type="tel" id="telefone" name="telefone" pattern="[0-9{10}]" required><br>
+   
+    <label for="genero">genero</label><br>
+    <select id="genero"  name="genero" required>
+         <option value="">selecione o genero</option>
+         <option value="feminino">femenino</option>
+         <option value="masculino">masculino</option>
+         
+    </select><br>
+
+    <label for="endereço">endereço:</label><br>
+    <input type="endereço" id="endereço" name="endereço" requered><br>
+
+
+    <label for="telefone">telefone:</label><br>
+    <input type="tel" id="telefone" name="telefone" pattern="[0-9{10}]" required><br>
+
+    <label for="insira email" >insira email:</label><br>
+    <input type="text" id="insira email" name="insira email" requered><br>
+
+    <label for="insira o nome da escola" >insira o nome da escola:</label><br>
+    <input type="text" id="insira o nome da escola" name="insira o nome da escola" requered><br>
+    
+    <label for="qual sua serie atual?" >qual sua serie atual?:</label><br>
+    <input type="text" id="serie atual" name="serie atual" requered><br>
+
+    <label for="nome do responsavel" >nome do responsavel:</label><br>
+    <input type="text" id="nome do responsavel" name="insira nome do responsavel" requered><br>
+
+    <label for="contato do responsavel" >contato do responsavel:</label><br>
+    <input type="text" id="insira contato do responsavel" name="insira contato do responsavel" requered><br>
+
+    <label for="insira seu CPF" >insira seu CPF:</label><br>
+    <input type="text" id="insira seu CPF" name="insira seu CPF" requered><br>
+
+    <label for="insira seu RG" >insira seu RG:</label><br>
+    <input type="text" id="insira seu RG" name="insira seu RG" requered
+
+
+
+    <input type="submit" value="enviar">
+</form>
+
+<script src="validação_formulario.js"></script>
+</body>
+</html>
