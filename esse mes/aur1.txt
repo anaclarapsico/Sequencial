@@ -1,0 +1,18 @@
+CREATE TABLE automóvel (
+    placa VARCHAR(10),
+    renavan VARCHAR(20),
+    fabricante VARCHAR(100),
+    modelo VARCHAR(100),
+    ano INT,
+    código_cliente INT,
+);
+
+
+CRIAR TABELA cliente(
+    id int chave primária,
+    nome VARCHAR(90),
+    rg VARCHAR(20),
+    cpf VARCHAR(14),
+    endreço VARCHAR(14),
+    telefone varchar(20)
+);
